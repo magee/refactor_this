@@ -1,1 +1,8 @@
-refactor challenges
+This code is in serious need of refactoring, things to look for:
+- too much logic in the views
+- fat controller actions with redundant and unnecessary code
+- redundant code in the model
+- model/views/controller all need to be DRYed up.
+
+I've refactored the code in a separate branch called refactored. Try to refactor this yourself and see what you
+can come up with. Have fun!
